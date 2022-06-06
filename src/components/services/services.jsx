@@ -16,7 +16,7 @@ const services = () => {
             <h3>Web Development</h3>
           </div>
           <div className='service__list'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium atque impedit commodi. Voluptates, esse consequuntur? Deserunt commodi dignissimos similique beatae.</p>
+            <p>Criação de páginas e aplicativos para web com HTML, CSS, React e React Native.</p>
           </div>
         </article>
 
@@ -26,7 +26,7 @@ const services = () => {
             <h3>Content Creation</h3>
           </div>
           <div className='service__list'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium atque impedit commodi. Voluptates, esse consequuntur? Deserunt commodi dignissimos similique beatae.</p>
+            <p>Produção de conteúdo para lojas virtuais, prestadores de serviços e sites institucionais de pequenas, médias e grandes empresas.</p>
           </div>
         </article>
       </div>

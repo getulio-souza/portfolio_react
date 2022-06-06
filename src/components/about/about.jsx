@@ -21,13 +21,13 @@ function about() {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className="about__icon"/>
-              <h5>Experience</h5>
-              <small>+1 year working</small>
+              <h5>Experiência</h5>
+              <small>+ de 1 ano</small>
             </article>
             <article className='about__card'>
               <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>2+ in Brazil</small>
+              <h5>Clientes</h5>
+              <small>2+ no Brasil</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className="about__icon"/>
@@ -37,8 +37,8 @@ function about() {
           </div>
           {/* end of cards */}
           {/* paragraphy */}
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste libero facere possimus dignissimos animi! Earum beatae aperiam minima dolorem veniam natus officia unde, reprehenderit cumque quidem explicabo eligendi eaque animi?</p>
-          <a href="#contact" className='btn btn-primary'>Let's talk</a>
+          <p>Sou formado em Jornalismo com pós graduação em Marketing de Conteúdo pela Universidade Presbiteriana Mackenzie. Já trabalhei como redator por mais de 4 anos, produzindo conteúdos para empresas dos segmentos B2B E B2C. Atualmente estudo Sistemas para internet na FIAP como o objetivo de me tornar um desenvolvedor Front End.</p>
+          <a href="#contact" className='btn btn-primary'>Vamos conversar</a>
         </div>
       </div>
     </section>
