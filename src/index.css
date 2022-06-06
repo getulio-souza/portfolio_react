@@ -46,10 +46,9 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #000;
+    background-color: rgb(43, 40, 40);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(./assets/imagens/surface-\ dark-background-texture\ -wallpaper.jpg);
 }
 
 /*

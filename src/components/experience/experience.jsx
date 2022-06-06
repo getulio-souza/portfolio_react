@@ -4,6 +4,7 @@ import {AiFillHtml5} from "react-icons/ai"
 import {DiCss3} from "react-icons/di"
 import {SiTailwindcss} from "react-icons/si"
 import {BsFillBootstrapFill} from "react-icons/bs"
+import {FiFigma} from "react-icons/fi"
 import {DiJavascript} from "react-icons/di"
 import {FaReact} from "react-icons/fa"
 import {DiPhp} from "react-icons/di"
@@ -45,6 +46,13 @@ const experience = () => {
               <div>
               <h4>Bootstrap</h4>
               <small className='text-light'>Basic</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FiFigma className="experience__details-icon" />
+              <div>
+              <h4>Figma</h4>
+              <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
