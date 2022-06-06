@@ -19,7 +19,7 @@ const header = () => {
         <div className="me">
           <img src={Myself} alt="my profile picture" className='profile_photo' />
         </div>
-        <a href="#contact" className='scroll__down'><VscFoldDown/></a>
+        {/* <a href="#contact" className='scroll__down'><VscFoldDown/></a> */}
       </div>
     </header>
   )

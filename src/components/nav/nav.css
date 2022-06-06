@@ -1,0 +1,51 @@
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-white: #fff;
+    --color-red: rgb(240, 51, 51);
+
+    /*screen size */
+    --container-width-lg: 75%;
+    /* desktop */
+    --container-width-md: 86%;
+    /* tablet */
+    --container-width-sm: 90%;
+    /*mobile */
+
+    --transition: all 400ms ease;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background-color: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active{
+    background-color: var(--color-bg);
+    color: var(--color-white);
+}
