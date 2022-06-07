@@ -36,7 +36,7 @@
 .about__me-image{
     border-radius: 2rem;
     overflow: hidden;
-    width: 250px;
+    width: 300px;
 }
 
 .about__cards{
@@ -95,9 +95,6 @@ Media queries (medium devices)
         width: 50%;
         margin: 2rem auto 4rem;
     }
-    .about__me-image{
-    width: 200px;
-}
     .about__content p{
        margin: 1rem 0 1.5rem;
     }

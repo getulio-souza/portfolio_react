@@ -1,7 +1,7 @@
 import React from 'react'
 import "./header.css"
 import CTA from './cta'
-import Myself from "../../assets/Minhas fotos/photo-1.jpg"
+import Myself from "../../assets/Minhas fotos/photo-2.png"
 import HeaderSocial from './headerSocials'
 import {VscFoldDown} from "react-icons/vsc"
 
