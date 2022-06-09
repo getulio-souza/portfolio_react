@@ -58,12 +58,12 @@ const experience = () => {
             <article className='experience__details'>
              <DiJavascript className="experience__details-icon"/>
               <h4>Javascript</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Intermediate</small>
             </article>
             <article className='experience__details'>
              <FaReact className="experience__details-icon"/>
               <h4>React</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Basic</small>
             </article>
           </div>
         </div>
@@ -76,12 +76,12 @@ const experience = () => {
             <article className='experience__details'>
              <DiPhp className="experience__details-icon"/>
               <h4>PHP</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Basic</small>
             </article>
             <article className='experience__details'>
              <SiMysql className="experience__details-icon"/>
               <h4>MySQL</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Basic</small>
             </article>
           </div>
         {/* end of Frontend skills */}
