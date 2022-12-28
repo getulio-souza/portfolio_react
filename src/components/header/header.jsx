@@ -1,9 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./cta";
-import Myself from "../../assets/Minhas fotos/photo-2.png";
 import HeaderSocial from "./headerSocials";
-import { VscFoldDown } from "react-icons/vsc";
 
 const header = () => {
   return (
@@ -15,15 +13,6 @@ const header = () => {
         {/* buttons */}
         <HeaderSocial />
         <CTA />
-        {/* profile photo*/}
-        <div className="me">
-          <img
-            src={Myself}
-            alt="my profile picture"
-            className="profile_photo"
-          />
-        </div>
-        {/* <a href="#contact" className='scroll__down'><VscFoldDown/></a> */}
       </div>
     </header>
   );

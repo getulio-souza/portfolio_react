@@ -17,25 +17,25 @@ const services = () => {
           </div>
           <div className="service__list">
             <p>
-              Responsible for create and improve webpages and applications for
-              companies by using front end tecnologies such as HTML, CSS,
-              javascript, react and angular.
+              Create and improve webpages and applications for companies by
+              using front end tecnologies such as HTML, CSS, javascript, react
+              and angular.
             </p>
           </div>
         </article>
 
-        {/* <article className="service">
+        <article className="service">
           <div className="service__head">
             <BiBookContent className="service__icon" />
-            <h3>Content Creation</h3>
+            <h3>Layout Creation</h3>
           </div>
           <div className="service__list">
             <p>
-              Produção de conteúdo para lojas virtuais, prestadores de serviços
-              e sites institucionais de pequenas, médias e grandes empresas.
+              Create a previous layout on figma to show how the website, landing
+              page or application will looks like before turn it into coding.
             </p>
           </div>
-        </article> */}
+        </article>
       </div>
     </section>
   );
