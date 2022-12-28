@@ -10,27 +10,42 @@ const portfolio = () => {
       <div className="container portfolio__container">
         {/* project */}
         <article className="portfolio__item">
+          <h3>Mobility (FIAP)</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/getulio-souza/cidade-acessivel-desafio-mobilidade-fiap"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://mobility-fiap.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        {/* project */}
+        <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
           <h3>Curso de SEO (Site de cursos - React)</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/getulio-souza/curso_redacao_seo"
-              className="btn btn-primary"
+              className="btn"
               target="_blank"
             >
-              Live Demo
+              Github
             </a>
           </div>
         </article>
 
         {/* project */}
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C4D0BAQFSMGp_qBde8A/company-logo_200_200/0/1613531752461?e=2147483647&v=beta&t=FghrZH7Mymjvc638kbJu_YeMpHUTh9yVXV2vDKyJKmU"
-              alt=""
-            />
-          </div>
           <h3>Frexco (Controle de estoque - React)</h3>
           <div className="portfolio__item-cta">
             <a
@@ -52,39 +67,6 @@ const portfolio = () => {
 
         {/* project */}
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C4D0BAQFSMGp_qBde8A/company-logo_200_200/0/1613531752461?e=2147483647&v=beta&t=FghrZH7Mymjvc638kbJu_YeMpHUTh9yVXV2vDKyJKmU"
-              alt=""
-            />
-          </div>
-          <h3>Frexco (Controle de estoque - React)</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/getulio-souza/app_frexco"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://getulio-souza.github.io/app_frexco/"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        {/* project */}
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C560BAQHwRB5CDzh8RA/company-logo_200_200/0/1630594505451?e=2147483647&v=beta&t=qcOaS39b9XXDU8bhSe8p1nuEHvbSGeHyB7B7X-6hSs0"
-              alt=""
-            />
-          </div>
           <h3>One Blue App (React)</h3>
           <div className="portfolio__item-cta">
             <a
@@ -106,12 +88,6 @@ const portfolio = () => {
 
         {/* project */}
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C4E0BAQEDAQu6n6BL-Q/company-logo_200_200/0/1541078289374?e=2147483647&v=beta&t=h_POUBUr9UWwgUFFf3Zxs56isyvgPbajFY_YPOPZkkE"
-              alt=""
-            />
-          </div>
           <h3>LogLife Logistica (React Native)</h3>
           <div className="portfolio__item-cta">
             <a
@@ -133,12 +109,6 @@ const portfolio = () => {
 
         {/* project */}
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src="https://getulio-souza.github.io/traveller_fiap_bootstrap/img/traveller_logo.png"
-              alt=""
-            />
-          </div>
           <h3>Traveller - FIAP</h3>
           <div className="portfolio__item-cta">
             <a
@@ -149,7 +119,7 @@ const portfolio = () => {
               Github
             </a>
             <a
-              href="https://getulio-souza.github.io/traveller_fiap_bootstrap/img/traveller_logo.png"
+              href="https://gulliver-traveller-v1.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -160,12 +130,6 @@ const portfolio = () => {
 
         {/* project */}
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src="https://tailwindcss.com/_next/static/media/social-square.b622e290e82093c36cca57092ffe494f.jpg"
-              alt=""
-            />
-          </div>
           <h3>Tailwind website</h3>
           <div className="portfolio__item-cta">
             <a
@@ -187,12 +151,6 @@ const portfolio = () => {
 
         {/* project */}
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img
-              src="https://images-americanas.b2w.io/marketplace/logo/grande/8417266000146.jpg"
-              alt=""
-            />
-          </div>
           <h3>Mpozenato Móveis (LP)</h3>
           <div className="portfolio__item-cta">
             <a
