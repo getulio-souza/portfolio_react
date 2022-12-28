@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import React from "react";
 import "./about.css";
 import ME from "../../assets/Minhas fotos/photo-4.jpeg";
 import { FaAward } from "react-icons/fa";
@@ -13,36 +14,45 @@ function about() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="about image"/>
+            <img src={ME} alt="about image" />
           </div>
         </div>
         <div className="about__content">
-            {/* cards */}
+          {/* cards */}
           <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className="about__icon"/>
-              <h5>Experiência</h5>
-              <small>+ de 1 ano</small>
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Experience</h5>
+              <small>more than 1 year</small>
             </article>
-            <article className='about__card'>
-              <FiUsers className="about__icon"/>
-              <h5>Clientes</h5>
-              <small>2+ no Brasil</small>
+            <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Clients</h5>
+              <small>more than 2 in Brazil</small>
             </article>
-            <article className='about__card'>
-              <VscFolderLibrary className="about__icon"/>
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </article>
           </div>
           {/* end of cards */}
           {/* paragraphy */}
-          <p>Sou formado em Jornalismo com pós graduação em Marketing de Conteúdo pela Universidade Presbiteriana Mackenzie. Já trabalhei como redator por mais de 4 anos, produzindo conteúdos para empresas dos segmentos B2B E B2C. Atualmente estudo Sistemas para internet na FIAP como o objetivo de me tornar um desenvolvedor Front End.</p>
-          <a href="#contact" className='btn btn-primary'>Vamos conversar</a>
+          <p>
+            I've worked as a Content Marketing Creator for about 4 years.
+            Nowadays, I'm come back to college to become a front end develop. As
+            a result, I'm stuying Systems for Internet at FIAP, a high end
+            tecnology college based in São Paulo. I'm also working as an Intern
+            Angular Front End Developer for an automation company. I'm always
+            looking for new ways to improve myself as a programmer.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's talk!
+          </a>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default about
+export default about;
