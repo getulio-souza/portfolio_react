@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./about.css";
-import ME from "../../assets/Minhas fotos/photo-2.png";
+import myself from '../../assets/Minhas fotos/new professional photo 2022.png'
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -14,7 +14,7 @@ function about() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="about image" />
+            <img src={myself} alt="about image" />
           </div>
         </div>
         <div className="about__content">
@@ -42,7 +42,7 @@ function about() {
             I've worked as a Content Marketing Creator for about 4 years.
             Nowadays, I'm come back to college to become a front end develop. As
             a result, I'm stuying Systems for Internet at FIAP, a high end
-            tecnology college based in São Paulo. I'm also working as an Intern
+            tecnology college based in São Paulo. I'm also worked as an Intern
             Angular Front End Developer for an automation company. I'm always
             looking for new ways to improve myself as a programmer.
           </p>
