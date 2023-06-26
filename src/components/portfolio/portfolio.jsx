@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-// import {FOOD} from '../../assets/meus projetos/fast-food-store.jpg'
 import rotaSegura from '../../assets/imagens/rota-segura.JPG'
 import mobilityLogo from "../../assets/imagens/icone-do-logo.jpg";
 import redatorDeSucessoLogo from "../../assets/imagens/redator-de-sucesso.png";
@@ -10,7 +9,7 @@ import logLife from "../../assets/imagens/log-life.jpg";
 import travellerLogo from "../../assets/imagens/traveller_logo.png";
 import mPozenato from "../../assets/imagens/mpozenato.png";
 
-const portfolio = () => {
+const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Projects</h5>
@@ -246,4 +245,4 @@ const portfolio = () => {
   );
 };
 
-export default portfolio;
+export default Portfolio;

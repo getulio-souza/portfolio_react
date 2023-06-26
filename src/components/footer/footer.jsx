@@ -3,7 +3,7 @@ import "./footer.css";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
@@ -45,4 +45,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

@@ -12,7 +12,7 @@ import { DiPhp } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 
-const experience = () => {
+const Experience = () => {
   return (
     <section id="experience">
       <h5>What skills I have</h5>
@@ -111,4 +111,4 @@ const experience = () => {
   );
 };
 
-export default experience;
+export default Experience;

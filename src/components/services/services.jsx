@@ -3,7 +3,7 @@ import "./services.css";
 import { BsCodeSlash } from "react-icons/bs";
 import { BiBookContent } from "react-icons/bi";
 
-const services = () => {
+const Services = () => {
   return (
     <section id="services">
       <h5>What I offer</h5>
@@ -41,4 +41,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

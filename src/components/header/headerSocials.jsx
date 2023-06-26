@@ -2,7 +2,7 @@ import React from 'react'
 import {BsLinkedin} from "react-icons/bs"
 import {FaGithub} from "react-icons/fa"
 
-const headerSocials = () => {
+const HeaderSocials = () => {
   return (
       <div className='header__socials'>
           <a href="https://www.linkedin.com/in/getulio-souza/" target="_blank"><BsLinkedin/></a>
@@ -11,4 +11,4 @@ const headerSocials = () => {
   )
 }
 
-export default headerSocials
+export default HeaderSocials
