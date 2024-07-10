@@ -46,7 +46,7 @@ function About() {
             with Angular as an intern and I’m currently studying other
             frameworks, such as React, to enhance my skills and become a more
             well-rounded professional. I am dynamic, focused, and
-            self-motivated.
+            self-motivated
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk!
