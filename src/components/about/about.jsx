@@ -23,7 +23,7 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>more than 1 year</small>
+              <small>2 years</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -39,12 +39,14 @@ function About() {
           {/* end of cards */}
           {/* paragraphy */}
           <p>
-            I've worked as a Content Marketing Creator for about 4 years.
-            Nowadays, I'm come back to college to become a front end develop. As
-            a result, I'm stuying Systems for Internet at FIAP, a high end
-            tecnology college based in São Paulo. I'm also worked as an Intern
-            Angular Front End Developer for an automation company. I'm always
-            looking for new ways to improve myself as a programmer.
+            My name is Getúlio. I hold a degree in Journalism and a postgraduate
+            degree in Content Marketing from Mackenzie University. Over the past
+            three years, I transitioned to becoming a Front-end Developer by
+            enrolling in Internet Systems at FIAP. I have experience working
+            with Angular as an intern and I’m currently studying other
+            frameworks, such as React, to enhance my skills and become a more
+            well-rounded professional. I am dynamic, focused, and
+            self-motivated.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk!

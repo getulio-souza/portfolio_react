@@ -1,11 +1,15 @@
 import React from 'react'
-import CV2023 from "../../assets/meus arquivos/cv_2023.pdf"
+import CV2024ENGLISH from "../../assets/meus arquivos/CV 2024 - Getulio (English).pdf";
+import CV2024PORTUGUESE from "../../assets/meus arquivos/CV 2024 - Getulio (English).pdf";
 
 const Cta = () => {
   return (
     <div className="cta">
-      <a href={CV2023} download className="btn">
-        Download CV
+      <a href={CV2024ENGLISH} download className="btn">
+        Download CV - English
+      </a>
+      <a href={CV2024PORTUGUESE} download className="btn">
+        Download CV - Portuguese
       </a>
       <a href="#contact" className="btn btn-primary">
         Let's talk
