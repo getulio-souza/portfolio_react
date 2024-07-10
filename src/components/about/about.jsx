@@ -27,8 +27,8 @@ function About() {
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>more than 2 in Brazil</small>
+              <h5>Companies I Worked</h5>
+              <small>more than 4 in Brazil</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
