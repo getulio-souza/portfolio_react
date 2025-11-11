@@ -23,7 +23,7 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2 years</small>
+              <small>3 years</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -43,10 +43,10 @@ function About() {
             degree in Content Marketing from Mackenzie University. Over the past
             three years, I transitioned to becoming a Front-end Developer by
             enrolling in Internet Systems at FIAP. I have experience working
-            with Angular as an intern and I’m currently studying other
-            frameworks, such as React, to enhance my skills and become a more
+            with Angular and I’m currently studying other
+            frameworks, such as Node Js, to enhance my skills and become a more
             well-rounded professional. I am dynamic, focused, and
-            self-motivated.
+            self-motivated person.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk!

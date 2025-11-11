@@ -1,7 +1,7 @@
 import React from "react";
 import "./experience.css";
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
+import { DiCss3, DiNodejs } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { FiFigma } from "react-icons/fi";
@@ -101,6 +101,11 @@ const Experience = () => {
             <article className="experience__details">
               <DiJava className="experience__details-icon" />
               <h4>Java</h4>
+              <small className="text-light">Basic</small>
+            </article>
+            <article className="experience__details">
+              <DiNodejs className="experience__details-icon" />
+              <h4>Node</h4>
               <small className="text-light">Basic</small>
             </article>
           </div>

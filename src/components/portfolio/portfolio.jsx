@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import rotaSegura from '../../assets/imagens/rota-segura.JPG'
+import incor from "../../assets/imagens/incor.jpeg";
 import mobilityLogo from "../../assets/imagens/icone-do-logo.jpg";
 import redatorDeSucessoLogo from "../../assets/imagens/redator-de-sucesso.png";
 import Frexco from "../../assets/imagens/frexco.png";
@@ -15,6 +16,24 @@ const Portfolio = () => {
       <h5>My Projects</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+        {/* project */}
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={incor} alt="" />
+          </div>
+          <h3>Trada - Heart Rate Monitoring</h3>
+          {/* <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/getulio-souza/rota-segura"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div> */}
+        </article>
+
         {/* project */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -100,14 +119,14 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <a
+            {/* <a
               href="https://getulio-souza.github.io/app_frexco/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
 
@@ -126,14 +145,14 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <a
+            {/* <a
               href="https://github.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
 

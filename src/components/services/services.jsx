@@ -18,8 +18,7 @@ const Services = () => {
           <div className="service__list">
             <p>
               Create and improve webpages and applications for companies by
-              using front end tecnologies such as HTML, CSS, javascript, React
-              and angular.
+              using front end tecnologies such as HTML, CSS, javascript, Angular and React.
             </p>
           </div>
         </article>
