@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.758db170.css",
+    "main.css": "/portfolio_react/static/css/main.be5c9c98.css",
     "main.js": "/portfolio_react/static/js/main.e784f05f.js",
     "static/media/CV 2024 - Getulio (English).pdf": "/portfolio_react/static/media/CV 2024 - Getulio (English).2de0dabfac1ca27afc9a.pdf",
     "static/media/new professional photo 2022.png": "/portfolio_react/static/media/new professional photo 2022.929bbcabd7a764d86e97.png",
@@ -10,11 +10,11 @@
     "static/media/redator-de-sucesso.png": "/portfolio_react/static/media/redator-de-sucesso.16da3a62cc7a5348bb9c.png",
     "static/media/icone-do-logo.jpg": "/portfolio_react/static/media/icone-do-logo.21ee197edf9ed68eda6d.jpg",
     "index.html": "/portfolio_react/index.html",
-    "main.758db170.css.map": "/portfolio_react/static/css/main.758db170.css.map",
+    "main.be5c9c98.css.map": "/portfolio_react/static/css/main.be5c9c98.css.map",
     "main.e784f05f.js.map": "/portfolio_react/static/js/main.e784f05f.js.map"
   },
   "entrypoints": [
-    "static/css/main.758db170.css",
+    "static/css/main.be5c9c98.css",
     "static/js/main.e784f05f.js"
   ]
 }
