@@ -40,14 +40,25 @@ function About() {
           {/* paragraphy */}
           <p>
             My name is Getúlio. I hold a degree in Journalism and a postgraduate
-            degree in Content Marketing from Mackenzie University. Over the past
-            three years, I transitioned to becoming a Front-end Developer by
-            enrolling in Internet Systems at FIAP. I have experience working
-            with Angular and I’m currently studying other
-            frameworks, such as Node Js, to enhance my skills and become a more
-            well-rounded professional. I am dynamic, focused, and
-            self-motivated person.
+            degree in Content Marketing from Mackenzie University.
           </p>
+          <p>
+            Over the past three years, I’ve transitioned into Front-End
+            Development by completing a degree in Internet Systems at FIAP. I
+            have over two years of experience working with Angular in
+            healthcare-focused companies.
+          </p>
+          <p>
+            Currently, I’m expanding my expertise by studying other frameworks,
+            such as Node.js, to become a more versatile and well-rounded
+            developer.
+          </p>
+          <p>
+            I’m a dynamic, focused, and self-motivated professional who is
+            passionate about continuous learning and delivering high-quality
+            solutions.
+          </p>
+
           <a href="#contact" className="btn btn-primary">
             Let's talk!
           </a>
