@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.758db170.css",
-    "main.js": "/portfolio_react/static/js/main.35b98087.js",
+    "main.js": "/portfolio_react/static/js/main.e784f05f.js",
+    "static/media/CV 2024 - Getulio (English).pdf": "/portfolio_react/static/media/CV 2024 - Getulio (English).2de0dabfac1ca27afc9a.pdf",
     "static/media/new professional photo 2022.png": "/portfolio_react/static/media/new professional photo 2022.929bbcabd7a764d86e97.png",
-    "static/media/CV 2024 - Getulio (English).pdf": "/portfolio_react/static/media/CV 2024 - Getulio (English).6a23f44deae724d19e7c.pdf",
     "static/media/frexco.png": "/portfolio_react/static/media/frexco.65dbb8d34b60406016c9.png",
     "static/media/mpozenato.png": "/portfolio_react/static/media/mpozenato.c47a67e02b13f834b49d.png",
     "static/media/rota-segura.JPG": "/portfolio_react/static/media/rota-segura.03ecdf303f41c24fb409.JPG",
@@ -11,10 +11,10 @@
     "static/media/icone-do-logo.jpg": "/portfolio_react/static/media/icone-do-logo.21ee197edf9ed68eda6d.jpg",
     "index.html": "/portfolio_react/index.html",
     "main.758db170.css.map": "/portfolio_react/static/css/main.758db170.css.map",
-    "main.35b98087.js.map": "/portfolio_react/static/js/main.35b98087.js.map"
+    "main.e784f05f.js.map": "/portfolio_react/static/js/main.e784f05f.js.map"
   },
   "entrypoints": [
     "static/css/main.758db170.css",
-    "static/js/main.35b98087.js"
+    "static/js/main.e784f05f.js"
   ]
 }
