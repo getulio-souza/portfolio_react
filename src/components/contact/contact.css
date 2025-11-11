@@ -54,6 +54,11 @@
     margin-bottom: 0.5rem;
 }
 
+.contact__option-icon > h6{
+    white-space: normal;
+    word-wrap: break-word;
+}
+
 .contact__option a{
     margin-top: 0.7rem;
     display: inline-block;
