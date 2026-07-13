@@ -119,9 +119,27 @@
       "DESCRIPTION": "Create and improve websites and web applications using front-end technologies such as HTML, CSS, JavaScript, Angular, and React."
     },
 
+
     "LAYOUT_CREATION": {
       "TITLE": "Layout Creation",
       "DESCRIPTION": "Create interface prototypes in Figma to demonstrate how a website, landing page, or application will look before development begins."
+    },
+
+    "RESPONSIVE": {
+      "TITLE": "Responsive Design",
+      "DESCRIPTION": "Create interface prototypes in Figma to demonstrate how a website, landing page, or application will look before development begins."
+    },
+
+    "MAINTENANCE": {
+        "TITLE": "Maintenance & Refactoring",
+        "DESCRIPTION": "Maintenance, bug fixing, legacy code refactoring, and implementation of new features for existing web applications."
+    },
+
+    "API": {
+        "TITLE": "Maintenance & Refactoring",
+        "DESCRIPTION": "Maintenance, bug fixing, legacy code refactoring, and implementation of new features for existing web applications."
     }
+
+    
   }
 }

@@ -72,6 +72,21 @@
     "LAYOUT_CREATION": {
       "TITLE": "Criação de Layouts",
       "DESCRIPTION": "Criação de protótipos de interfaces no Figma para demonstrar como um site, landing page ou aplicação ficará antes do início do desenvolvimento."
+    },
+
+    "RESPONSIVE": {
+      "TITLE": "Design Responsivo",
+      "DESCRIPTION": "Desenvolvimento de interfaces adaptáveis para desktop, tablet e dispositivos móveis utilizando CSS moderno, Flexbox, Grid e Media Queries."
+    },
+
+     "MAINTENANCE": {
+      "TITLE": "Manutenção e Refatoração",
+      "DESCRIPTION": "Correção de bugs, refatoração de código legado e implementação de novas funcionalidades em aplicações web existentes."
+    },
+
+    "API": {
+        "TITLE": "Integração com APIs",
+        "DESCRIPTION": "Consumo de APIs REST utilizando Axios e Fetch, tratamento de estados de carregamento, autenticação e manipulação de dados."
     }
   }
 

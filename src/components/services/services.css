@@ -20,7 +20,7 @@
 
 .services__container{
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     text-align: center;
 }
@@ -59,13 +59,12 @@
 }
 
 .service__list{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .service__list p{
     display: flex;
     gap: 1rem;
-    margin-bottom: 0.8rem;
     font-size: 0.9rem;
 }
 
@@ -95,6 +94,69 @@ Media queries (medium devices)
   .service{
       height: auto;
   }
+}
+
+.tech-stack{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:1rem;
+    margin: 10px;
+}
+
+.tech-item{
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+
+    padding: .35rem .7rem;
+
+    border: 1px solid rgba(77, 169, 255, .35);
+    border-radius: 8px;
+
+    background: #151824;
+    color: white;
+
+    font-size: .72rem;
+    font-weight: 500;
+
+    transition: .25s ease;
+}
+
+.tech-item svg{
+    font-size: .85rem;
+}
+
+/* Cores dos ícones */
+
+.tech-item:nth-child(1) svg{
+    color:#E34F26;
+}
+
+.tech-item:nth-child(2) svg{
+    color:#1572B6;
+}
+
+.tech-item:nth-child(3) svg{
+    color:#F7DF1E;
+}
+
+.tech-item:nth-child(4) svg{
+    color:#61DAFB;
+}
+
+.tech-item:nth-child(5) svg{
+    color:#DD0031;
+}
+
+.tech-item:hover{
+
+    transform:translateY(-2px);
+
+    border-color:var(--color-primary);
+
+    box-shadow:0 0 12px rgba(77,169,255,.25);
+
 }
 
 
