@@ -1,5 +1,5 @@
 import React from 'react'
-import CV2024ENGLISH from "../../assets/meus arquivos/CV 2024 - Getulio (English).pdf";
+import cv from "../../assets/files/NEW_CV_2026.pdf"
 import { useTranslation } from 'react-i18next';
 
 
@@ -9,7 +9,7 @@ const Cta = () => {
 
   return (
     <div className="cta">
-      <a href={CV2024ENGLISH} download className="btn">
+      <a href={cv} download className="btn">
         {t("HEADER.DOWNLOADCTA")}
       </a>
       {/* <a href={CV2024PORTUGUESE} download className="btn">
