@@ -231,15 +231,6 @@ const Services = () => {
               <span>JWT</span>
             </span>
           </div>
-          
-
-          
-
-
-
-
-
-
         </article>
       </div>
     </section>

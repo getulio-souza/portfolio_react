@@ -5,8 +5,12 @@ import {AiFillLinkedin} from "react-icons/ai"
 import { ImWhatsapp } from "react-icons/im"
 import { useRef } from 'react';
 import emailjs from "emailjs-com";
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+
+  const {t} = useTranslation();
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,45 +26,94 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
-      <h5>Get in touch</h5>
-      <h2>Contact me</h2>
-      <div className="container contact__container">
-        <div className="contact__options">
+    <section id="contact">
+  <h5>{t("CONTACT.HEADER.SUBTITLE")}</h5>
+  <h2>{t("CONTACT.HEADER.TITLE")}</h2>
 
-          {/* contact option */}
-          <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon'/>
-            <h4>E-mail</h4>
-            <h6>getuliosouza@live.com</h6>
-            <a href="mailto:getuliosouza@live.com" target="_blank">Send me a message</a>
-          </article>
+  <div className="container contact__container">
 
-          {/* contact option */}
-          <article className="contact__option">
-            <AiFillLinkedin className='contact__option-icon'/>
-            <h4>Linkedin</h4>
-            <h6>https://www.linkedin.com/in/getulio-souza/</h6>
-            <a href="https://www.linkedin.com/in/getulio-souza/" target="_blank">Send me a message</a>
-          </article>
+    <div className="contact__options">
 
-          {/* contact option */}
-          <article className="contact__option">
-            <ImWhatsapp className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <a href="https://api.whatsapp.com/send?phone=5511911591939" target="_blank">Send me a message</a>
-          </article>
+      {/* Email */}
+      <article className="contact__option">
+        <MdOutlineEmail className="contact__option-icon" />
 
-        </div>
-          {/* form */}
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder='Your full name' required />
-          <input type="email" name='email' placeholder='your e-mail' required />
-          <textarea name="message" rows="7" placeholder='your message' required></textarea>
-          <button type='submit' className='btn btn-primary'>send message</button>
-          </form>
-      </div>
-    </section>
+        <h4>{t("CONTACT.OPTIONS.EMAIL.TITLE")}</h4>
+
+        <a 
+          href="mailto:getuliosouza@live.com"
+        >
+          {t("CONTACT.OPTIONS.EMAIL.ACTION")}
+        </a>
+      </article>
+
+
+      {/* LinkedIn */}
+      <article className="contact__option">
+        <AiFillLinkedin className="contact__option-icon" />
+
+        <h4>{t("CONTACT.OPTIONS.LINKEDIN.TITLE")}</h4>
+
+        <a 
+          href="https://www.linkedin.com/in/getulio-souza/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t("CONTACT.OPTIONS.LINKEDIN.ACTION")}
+        </a>
+      </article>
+
+
+      {/* WhatsApp */}
+      <article className="contact__option">
+        <ImWhatsapp className="contact__option-icon" />
+
+        <h4>{t("CONTACT.OPTIONS.WHATSAPP.TITLE")}</h4>
+
+        <a 
+          href="https://api.whatsapp.com/send?phone=5511911591939"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t("CONTACT.OPTIONS.WHATSAPP.ACTION")}
+        </a>
+      </article>
+
+    </div>
+
+
+    {/* Form */}
+    <form ref={form} onSubmit={sendEmail}>
+
+      <input
+        type="text"
+        name="name"
+        placeholder={t("CONTACT.FORM.NAME_PLACEHOLDER")}
+        required
+      />
+
+      <input
+        type="email"
+        name="email"
+        placeholder={t("CONTACT.FORM.EMAIL_PLACEHOLDER")}
+        required
+      />
+
+      <textarea
+        name="message"
+        rows={7}
+        placeholder={t("CONTACT.FORM.MESSAGE_PLACEHOLDER")}
+        required
+      />
+
+      <button type="submit" className="btn btn-primary">
+        {t("CONTACT.FORM.SUBMIT_BUTTON")}
+      </button>
+
+    </form>
+
+  </div>
+</section>
   )
 }
 

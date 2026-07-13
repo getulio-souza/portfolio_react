@@ -9,19 +9,21 @@ import oneBlugLogo from "../../assets/imagens/one-blue.jpg";
 import logLife from "../../assets/imagens/log-life.jpg";
 import travellerLogo from "../../assets/imagens/traveller_logo.png";
 import mPozenato from "../../assets/imagens/mpozenato.png";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+  const {t} = useTranslation()
   return (
     <section id="portfolio">
-      <h5>My Projects</h5>
-      <h2>Portfolio</h2>
+      <h5>{t("PORTFOLIO.HEADER.SUBTITLE")}</h5>
+      <h2>{t("PORTFOLIO.HEADER.TITLE")}</h2>
       <div className="container portfolio__container">
         {/* project */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={incor} alt="" />
           </div>
-          <h3>Trada - Heart Rate Monitoring</h3>
+          <h3>{t("PORTFOLIO.PROJECTS.TRADA.TITLE")}</h3>
           {/* <div className="portfolio__item-cta">
             <a
               href="https://github.com/getulio-souza/rota-segura"

@@ -88,7 +88,43 @@
         "TITLE": "Integração com APIs",
         "DESCRIPTION": "Consumo de APIs REST utilizando Axios e Fetch, tratamento de estados de carregamento, autenticação e manipulação de dados."
     }
+  },
+  "PORTFOLIO": {
+    "HEADER": {
+        "SUBTITLE": "Projetos profissionais/academicos",
+        "TITLE": "Portfolio"
+    },
+    "PROJECTS": {
+        "TRADA": {
+            "TITLE": "Trada - Monitoramento cardiaco em tempo real"
+        }
+    }
+  },
+
+  "CONTACT": {
+    "HEADER": {
+      "SUBTITLE": "Entre em contato",
+      "TITLE": "Fale Comigo"
+    },
+    "OPTIONS": {
+      "EMAIL": {
+        "TITLE": "E-mail",
+        "ACTION": "Enviar um e-mail"
+      },
+      "LINKEDIN": {
+        "TITLE": "LinkedIn",
+        "ACTION": "Conectar no LinkedIn"
+      },
+      "WHATSAPP": {
+        "TITLE": "WhatsApp",
+        "ACTION": "Enviar uma mensagem"
+      }
+    },
+    "FORM": {
+      "NAME_PLACEHOLDER": "Seu nome completo",
+      "EMAIL_PLACEHOLDER": "Seu e-mail",
+      "MESSAGE_PLACEHOLDER": "Sua mensagem",
+      "SUBMIT_BUTTON": "Enviar Mensagem"
+    }
   }
-
-
 }

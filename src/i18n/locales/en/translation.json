@@ -139,7 +139,43 @@
         "TITLE": "Maintenance & Refactoring",
         "DESCRIPTION": "Maintenance, bug fixing, legacy code refactoring, and implementation of new features for existing web applications."
     }
-
-    
+  },
+  "PORTFOLIO": {
+    "HEADER": {
+        "SUBTITLE": "Profeessional/academy projects",
+        "TITLE": "Portfolio"
+    },
+    "PROJECTS": {
+        "TRADA": {
+            "TITLE": "Trada - Heart Rate Monitoring"
+        }
+    }
+  },
+  
+  "CONTACT": {
+    "HEADER": {
+      "SUBTITLE": "Get in touch",
+      "TITLE": "Contact Me"
+    },
+    "OPTIONS": {
+      "EMAIL": {
+        "TITLE": "E-mail",
+        "ACTION": "Send me an email"
+      },
+      "LINKEDIN": {
+        "TITLE": "LinkedIn",
+        "ACTION": "Connect on LinkedIn"
+      },
+      "WHATSAPP": {
+        "TITLE": "WhatsApp",
+        "ACTION": "Send me a message"
+      }
+    },
+    "FORM": {
+      "NAME_PLACEHOLDER": "Your full name",
+      "EMAIL_PLACEHOLDER": "Your e-mail",
+      "MESSAGE_PLACEHOLDER": "Your message",
+      "SUBMIT_BUTTON": "Send Message"
+    }
   }
 }
