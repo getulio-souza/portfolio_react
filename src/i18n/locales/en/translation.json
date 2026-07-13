@@ -177,5 +177,18 @@
       "MESSAGE_PLACEHOLDER": "Your message",
       "SUBMIT_BUTTON": "Send Message"
     }
+  },
+  
+  "FOOTER": {
+    "LINKS": {
+      "HOME": "Home",
+      "ABOUT": "About",
+      "EXPERIENCE": "Experience",
+      "SERVICES": "Services",
+      "PORTFOLIO": "Portfolio",
+      "CONTACT": "Contact"
+    },
+    "COPYRIGHT": "All Rights Reserved."
   }
 }
+

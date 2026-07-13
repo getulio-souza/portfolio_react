@@ -126,5 +126,19 @@
       "MESSAGE_PLACEHOLDER": "Sua mensagem",
       "SUBMIT_BUTTON": "Enviar Mensagem"
     }
+  },
+  
+  "FOOTER": {
+    "LINKS": {
+      "HOME": "Início",
+      "ABOUT": "Sobre",
+      "EXPERIENCE": "Experiência",
+      "SERVICES": "Serviços",
+      "PORTFOLIO": "Portfólio",
+      "CONTACT": "Contato"
+    },
+    "COPYRIGHT": "Todos os direitos reservados."
   }
 }
+
+
