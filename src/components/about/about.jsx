@@ -5,12 +5,16 @@ import myself from '../../assets/Minhas fotos/new professional photo 2022.png'
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useTranslation } from "react-i18next";
 
 function About() {
+
+  const {t} = useTranslation();
+
   return (
     <section id="about">
-      <h5>Get to know me</h5>
-      <h2>About me</h2>
+      <h5>{t("ABOUT.HEADER.SUBTITLE")}</h5>
+      <h2>{t("ABOUT.HEADER.TITLE")}</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -22,45 +26,29 @@ function About() {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3 years</small>
+              <h5>{t("ABOUT.CARDS.EXPERIENCE.TITLE")}</h5>
+              <small>{t("ABOUT.CARDS.EXPERIENCE.VALUE")}</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Companies I Worked</h5>
-              <small>more than 4 in Brazil</small>
+              <h5>{t("ABOUT.CARDS.COMPANIES.TITLE")}</h5>
+              <small>{t("ABOUT.CARDS.COMPANIES.VALUE")}</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <h5>{t("ABOUT.CARDS.PROJECTS.TITLE")}</h5>
+              <small>{t("ABOUT.CARDS.PROJECTS.VALUE")}</small>
             </article>
           </div>
           {/* end of cards */}
           {/* paragraphy */}
-          <p>
-            My name is Getúlio. I hold a degree in Journalism and a postgraduate
-            degree in Content Marketing from Mackenzie University.
-          </p>
-          <p>
-            Over the past three years, I’ve transitioned into Front-End
-            Development by completing a degree in Internet Systems at FIAP. I
-            have over two years of experience working with Angular in
-            healthcare-focused companies.
-          </p>
-          <p>
-            Currently, I’m expanding my expertise by studying other frameworks,
-            such as Node.js, to become a more versatile and well-rounded
-            developer.
-          </p>
-          <p>
-            I’m a dynamic, focused, and self-motivated professional who is
-            passionate about continuous learning and delivering high-quality
-            solutions.
-          </p>
+          <p>{t("ABOUT.DESCRIPTION.PARAGRAPH_1")}</p>
+          <p>{t("ABOUT.DESCRIPTION.PARAGRAPH_2")}</p>
+          <p>{t("ABOUT.DESCRIPTION.PARAGRAPH_3")}</p>
+          <p>{t("ABOUT.DESCRIPTION.PARAGRAPH_4")}</p>
 
           <a href="#contact" className="btn btn-primary">
-            Let's talk!
+            {t("ABOUT.BUTTON.CONTACT")}
           </a>
         </div>
       </div>

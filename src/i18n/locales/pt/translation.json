@@ -1,6 +1,79 @@
 {
   "HEADER": {
     "GREETING": "Olá, meu nome é",
-    "ROLE": "Desenvolvedor Front-End"
+    "ROLE": "Desenvolvedor Front-End",
+    "DOWNLOADCTA": "Baixar CV",
+    "INVITETALK": "Vamos conversar"
+  },
+  "ABOUT": {
+    "HEADER": {
+      "SUBTITLE": "Conheça um pouco sobre mim",
+      "TITLE": "Sobre mim"
+    },
+    "CARDS": {
+      "EXPERIENCE": {
+        "TITLE": "Experiência",
+        "VALUE": "3 anos"
+      },
+      "COMPANIES": {
+        "TITLE": "Empresas em que trabalhei",
+        "VALUE": "Mais de 4 no Brasil"
+      },
+      "PROJECTS": {
+        "TITLE": "Projetos",
+        "VALUE": "Mais de 10 concluídos"
+      }
+    },
+    "DESCRIPTION": {
+      "PARAGRAPH_1": "Meu nome é Getúlio. Sou formado em Jornalismo e possuo pós-graduação em Marketing de Conteúdo pela Universidade Mackenzie.",
+
+      "PARAGRAPH_2": "Nos últimos três anos, fiz a transição para o desenvolvimento Front-End ao concluir a graduação em Sistemas para Internet pela FIAP. Tenho mais de dois anos de experiência trabalhando com Angular em empresas do setor da saúde.",
+
+      "PARAGRAPH_3": "Atualmente, estou ampliando meus conhecimentos estudando outras tecnologias, como Node.js, para me tornar um desenvolvedor mais versátil e completo.",
+
+      "PARAGRAPH_4": "Sou um profissional dinâmico, focado e autodidata, apaixonado por aprendizado contínuo e por desenvolver soluções de alta qualidade."
+    },
+    "BUTTON": {
+      "CONTACT": "Vamos conversar!"
+    }
+  },
+  "EXPERIENCE": {
+    "HEADER": {
+      "SUBTITLE": "Minhas habilidades",
+      "TITLE": "Minha Experiência"
+    },
+
+    "FRONTEND": {
+      "TITLE": "Desenvolvimento Front-End"
+    },
+
+    "BACKEND": {
+      "TITLE": "Desenvolvimento Back-End"
+    },
+
+    "LEVELS": {
+      "BASIC": "Básico",
+      "INTERMEDIATE": "Intermediário",
+      "EXPERIENCED": "Experiente"
+    }
+  },
+
+  "SERVICES": {
+    "HEADER": {
+      "SUBTITLE": "O que eu ofereço",
+      "TITLE": "Serviços"
+    },
+
+    "WEB_DEVELOPMENT": {
+      "TITLE": "Desenvolvimento Web",
+      "DESCRIPTION": "Desenvolvimento e aprimoramento de sites e aplicações web utilizando tecnologias front-end como HTML, CSS, JavaScript, Angular e React."
+    },
+
+    "LAYOUT_CREATION": {
+      "TITLE": "Criação de Layouts",
+      "DESCRIPTION": "Criação de protótipos de interfaces no Figma para demonstrar como um site, landing page ou aplicação ficará antes do início do desenvolvimento."
+    }
   }
+
+
 }

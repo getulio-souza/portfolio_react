@@ -1,6 +1,127 @@
 {
   "HEADER": {
     "GREETING": "Hello, my name is",
-    "ROLE": "Front-End Developer"
+    "ROLE": "Front-End Developer",
+    "DOWNLOADCTA": "Download CV",
+    "INVITETALK": "Let`s talk"
+  },
+  "ABOUT": {
+    "HEADER": {
+        "SUBTITLE": "Get to know me",
+        "TITLE": "About me"
+    },
+    "CARDS": {
+      "EXPERIENCE": {
+        "TITLE": "Experience",
+        "VALUE": "3 years"
+      },
+
+      "COMPANIES": {
+        "TITLE": "Companies I Worked",
+        "VALUE": "More than 4 in Brazil"
+      },
+
+      "PROJECTS": {
+        "TITLE": "Projects",
+        "VALUE": "10+ Completed"
+      }
+    },
+    "DESCRIPTION": {
+      "PARAGRAPH_1": "My name is Getúlio. I hold a degree in Journalism and a postgraduate degree in Content Marketing from Mackenzie University.",
+
+      "PARAGRAPH_2": "Over the past three years, I've transitioned into Front-End Development by completing a degree in Internet Systems at FIAP. I have over two years of experience working with Angular in healthcare-focused companies.",
+
+      "PARAGRAPH_3": "Currently, I'm expanding my expertise by studying other frameworks, such as Node.js, to become a more versatile and well-rounded developer.",
+
+      "PARAGRAPH_4": "I'm a dynamic, focused, and self-motivated professional who is passionate about continuous learning and delivering high-quality solutions."
+    },
+    "BUTTON": {
+      "CONTACT": "Let's talk!"
+    }
+  },
+    "EXPERIENCE": {
+    "HEADER": {
+      "SUBTITLE": "What skills I have",
+      "TITLE": "My Experience"
+    },
+
+    "FRONTEND": {
+      "TITLE": "Frontend Development",
+
+      "HTML": {
+        "LEVEL": "Experienced"
+      },
+
+      "CSS": {
+        "LEVEL": "Experienced"
+      },
+
+      "TAILWIND": {
+        "LEVEL": "Basic"
+      },
+
+      "BOOTSTRAP": {
+        "LEVEL": "Basic"
+      },
+
+      "FIGMA": {
+        "LEVEL": "Intermediate"
+      },
+
+      "JAVASCRIPT": {
+        "LEVEL": "Intermediate"
+      },
+
+      "REACT": {
+        "LEVEL": "Basic"
+      },
+
+      "ANGULAR": {
+        "LEVEL": "Basic"
+      }
+    },
+
+    "BACKEND": {
+      "TITLE": "Backend Development",
+
+      "PHP": {
+        "LEVEL": "Basic"
+      },
+
+      "MYSQL": {
+        "LEVEL": "Basic"
+      },
+
+      "JAVA": {
+        "LEVEL": "Basic"
+      },
+
+      "NODE": {
+        "LEVEL": "Basic"
+      }
+    },
+
+    "LEVELS": {
+      "BASIC": "Basic",
+      "INTERMEDIATE": "Intermediate",
+      "EXPERIENCED": "Experienced"
+    }
+  },
+  
+  "SERVICES": {
+    "HEADER": {
+      "SUBTITLE": "What I Offer",
+      "TITLE": "Services"
+    },
+
+    "WEB_DEVELOPMENT": {
+      "TITLE": "Web Development",
+      "DESCRIPTION": "Create and improve websites and web applications using front-end technologies such as HTML, CSS, JavaScript, Angular, and React."
+    },
+
+    "LAYOUT_CREATION": {
+      "TITLE": "Layout Creation",
+      "DESCRIPTION": "Create interface prototypes in Figma to demonstrate how a website, landing page, or application will look before development begins."
+    }
   }
 }
