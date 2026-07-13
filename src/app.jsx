@@ -7,18 +7,23 @@ import Services from "./components/services/services";
 import Portfolio from "./components/portfolio/portfolio";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import LangSwitcher from './shared/langSwitcher/LangSwitcher';
 
 const app = () => {
   return (
     <>
-      <Header />
-      <Nav />
-      <About/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+      <article style={{position: "relative"}}>
+        <LangSwitcher/>
+        <Header />
+        <Nav />
+        <About/>
+        <Experience/>
+        <Services/>
+        <Portfolio/>
+        <Contact/>
+        <Footer/>
+      </article>
+     
     </>
   )
 }
