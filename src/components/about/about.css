@@ -36,7 +36,7 @@
 .about__me-image{
     border-radius: 2rem;
     overflow: hidden;
-    width: 300px;
+    /* width: 300px; */
 }
 
 .about__cards{

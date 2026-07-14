@@ -14,14 +14,16 @@ const app = () => {
     <>
       <article style={{position: "relative"}}>
         <LangSwitcher/>
-        <Header />
-        <Nav />
-        <About/>
-        <Experience/>
-        <Services/>
-        <Portfolio/>
-        <Contact/>
-        <Footer/>
+        <div style={{marginTop: "4rem"}}>
+          <Header />
+          <Nav />
+          <About/>
+          <Experience/>
+          <Services/>
+          <Portfolio/>
+          <Contact/>
+          <Footer/>
+        </div>
       </article>
      
     </>
