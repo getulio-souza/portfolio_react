@@ -12,9 +12,9 @@ import LangSwitcher from './shared/langSwitcher/LangSwitcher';
 const app = () => {
   return (
     <>
-      <article style={{position: "relative"}}>
+      <article className='portfolio-page'>
         <LangSwitcher/>
-        <div style={{marginTop: "4rem"}}>
+        <div className='portfolio-content'>
           <Header />
           <Nav />
           <About/>

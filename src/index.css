@@ -162,3 +162,11 @@ Media queries (small devices)
         margin-top: 2rem;
     }
 }
+
+.portfolio-page {
+  position: relative;
+}
+
+.portfolio-content {
+  padding-top: 5rem;
+}
