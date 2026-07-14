@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.52bf27b6.css",
-    "main.js": "/portfolio_react/static/js/main.8edb6aed.js",
+    "main.css": "/portfolio_react/static/css/main.a4112103.css",
+    "main.js": "/portfolio_react/static/js/main.cd2f10bb.js",
     "static/media/new professional photo 2022.png": "/portfolio_react/static/media/new professional photo 2022.929bbcabd7a764d86e97.png",
     "static/media/NEW_CV_2026.pdf": "/portfolio_react/static/media/NEW_CV_2026.fae82bca36f26c3432dd.pdf",
     "static/media/frexco.png": "/portfolio_react/static/media/frexco.65dbb8d34b60406016c9.png",
@@ -11,11 +11,11 @@
     "static/media/icone-do-logo.jpg": "/portfolio_react/static/media/icone-do-logo.21ee197edf9ed68eda6d.jpg",
     "static/media/global.svg": "/portfolio_react/static/media/global.6f24059d3effdb2b5a312a1dfce89f49.svg",
     "index.html": "/portfolio_react/index.html",
-    "main.52bf27b6.css.map": "/portfolio_react/static/css/main.52bf27b6.css.map",
-    "main.8edb6aed.js.map": "/portfolio_react/static/js/main.8edb6aed.js.map"
+    "main.a4112103.css.map": "/portfolio_react/static/css/main.a4112103.css.map",
+    "main.cd2f10bb.js.map": "/portfolio_react/static/js/main.cd2f10bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.52bf27b6.css",
-    "static/js/main.8edb6aed.js"
+    "static/css/main.a4112103.css",
+    "static/js/main.cd2f10bb.js"
   ]
 }
